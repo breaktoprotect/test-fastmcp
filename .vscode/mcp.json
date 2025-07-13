@@ -1,0 +1,33 @@
+{
+	"servers": {
+		"food-api": {
+			"command": "pipenv",
+			"args": [
+				"run",
+				"python",
+				"${workspaceFolder}/food_api/server.py"
+			],
+			"type": "stdio"
+		},
+		"epss-api": {
+			"type": "stdio",
+			"command": "pipenv",
+			"args": [
+        "run",
+        "python",
+				"${workspaceFolder}/epss_api/server.py"
+			]
+		},
+
+		"calc-api": {
+			"type": "stdio",
+			"command": "pipenv",
+			"args": [
+				"run",
+				"python",
+				"${workspaceFolder}/calc_api/server.py"
+			]
+		}
+	},
+	"inputs": []
+}
