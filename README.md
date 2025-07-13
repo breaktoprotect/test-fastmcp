@@ -4,6 +4,4 @@ To test and demonstrate MCP capabilities through the use of FastMCP on both co-p
 
 # Demo
 
-<video src="demos/mcp_tooling_chained_phi4-q6-13B-LLM_720p.mp4" controls width="800">
-  Your browser does not support the video tag.
-</video>
+[▶️ Watch demo video](demos/mcp_tooling_chained_phi4-q6-13B-LLM_720p.mp4)
